@@ -1,0 +1,73 @@
+@font-face { font-family: 'lato';
+             src: url('./font/lato/Lato-Regular.ttf') format('truetype'); }
+
+body{
+  font-family: lato;
+  min-height: 100%;
+  background-image: url('img/BG.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.container img{
+  display: block;
+  margin: auto;
+  margin-top: 2em;
+}
+
+
+
+.login-box{
+  margin: auto;
+  margin-top: 4em;
+  padding-bottom: 3em;
+  width: 40%;
+  background-color: white;
+}
+
+.login-box-header{
+  text-transform: uppercase;
+  background-color: darkred;
+  text-align: center;
+  font-size: 1.3em;
+  padding: 0.5em;
+  color: white;
+  margin-bottom: 2em;
+}
+
+.login-box button{
+  width:30%;
+  margin: auto;
+  margin-top: 2em;
+  display: block;
+  font-size: 1.4em;
+  padding-left: 5em;
+  padding-right: 5em;
+	background-color: #FFFFFF;	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
+  padding: 0.3em !important;
+}
+
+.login-box label{
+  color: #960012;
+  font-size: 1em;
+  font-weight: bold;
+  display: block;
+  width:80%;
+  padding: 0.3em;
+  margin: auto;
+}
+
+.login-box input{
+  width: 80%;
+  font-size: 1.3em;
+  display: block;
+  margin: auto;
+}
+ .link{
+   color: #960012;
+   display: block;
+   text-align: center;
+   margin: auto;
+   margin-top: 3em;
+   font-weight: bold;
+ }
